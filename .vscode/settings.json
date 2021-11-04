@@ -3,5 +3,8 @@
   "ocaml.sandbox": {
     "switch": "4.10",
     "kind": "opam"
+  },
+  "[ocaml]": {
+    "editor.formatOnSave": true
   }
 }
