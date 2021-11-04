@@ -6,7 +6,8 @@ sudo apt-get install -y m4
 opam install dune
 opam install merlin
 
-opam pin add ocaml-lsp-server https://github.com/ocaml/ocaml-lsp.git
+# opam pin add ocaml-lsp-server https://github.com/ocaml/ocaml-lsp.git
+opam pin add ocaml-lsp-server https://github.com/ocaml/ocaml-lsp/releases/download/1.4.1/jsonrpc-1.4.1.tbz
 opam install ocaml-lsp-server
 
 eval $(opam env)
