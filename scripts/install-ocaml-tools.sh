@@ -2,6 +2,7 @@
 
 sudo apt-get update
 sudo apt-get install -y m4
+sudo apt install -y rlwrap
 
 opam install dune
 opam install merlin
