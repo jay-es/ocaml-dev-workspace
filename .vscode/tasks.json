@@ -1,0 +1,19 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "OCaml",
+      "type": "shell",
+      "command": "rlwrap ocaml",
+      "problemMatcher": []
+    },
+    {
+      "label": "dune:watch",
+      "type": "shell",
+      "command": "dune build --watch --terminal-persistence=clear-on-rebuild",
+      "problemMatcher": []
+    }
+  ]
+}
